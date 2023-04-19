@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dstv clone</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.0-web/fontawesome-free-6.1.0-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.0-web/fontawesome-free-6.1.0-web/svgs/solid/ser">
+</head>
+<body>
+    <div class="modal-box">
+        <div class="modalbox-body">
+            <div class="modalBox-top">
+            <img src="assets/icon-logo-mydstv.svg" alt="" width="300" height="57">
+            <p><strong>Sign in</strong> to your Account </p>
+            </div>
+                <form action="">
+                    <div class="form-mode">
+                           <i class="fas fa-location-dot"></i>
+                            <select id="ddlCountry" class="form-control jcf-hidden" name="CountryDropdown">
+                             <div class="opt">
+                                <option>ANGOLA</option>
+                                <option>BENIN</option>
+                                <option>BOTSWANA</option>
+                                <option>BURKINA FASO</option>
+                                <option>BURUNDI</option>
+                                <option>CAMEROON</option>
+                                <option>CAPE VERDE</option>
+                                <option>CHAD</option>
+                                <option>CONGO BRAZZAVILLE</option>
+                                <option>DJIBOUTI</option>
+                                <option>DRC</option>
+                                <option>EQUATORIAL GUINEA</option>
+                                <option>ERITREA</option>
+                                <option>ESWATINI</option>
+                                <option>ETHIOPIA</option>
+                                <option>GABON</option>
+                                <option>GAMBIA</option>
+                                <option>GHANA</option>
+                                <option>GUINEA BISSAU</option>
+                                <option>GUINEA CONAKRY</option>
+                                <option>IVORY COAST</option>
+                                <option>KENYA</option>
+                                <option>LIBERIA</option>
+                                <option>MADAGASCAR</option>
+                                <option>MALAWI</option>
+                                <option>MAURITANIA</option>
+                                <option>MAURITIUS</option>
+                                <option>MOZAMBIQUE</option>
+                                <option>NAMIBIA</option>
+                                <option>NIGER</option>
+                                <option>NIGERIA</option>
+                                <option>RWANDA</option>
+                                <option>SAO TOME &amp; PRINCIPE</option>
+                                <option>SENEGAL</option>
+                                <option>SEYCHELLES</option>
+                                <option>SIERRA LEONE</option>
+                                <option>SUDAN</option>
+                                <option>TANZANIA</option>
+                                <option>TOGO</option>
+                                <option>UGANDA</option>
+                                <option>ZAMBIA</option>
+                                <option>ZIMBABWE</option> 
+                            </div>
+                            </select>
+                        </div>
+                        <div class="form-mode">
+                            <i class="fas fa-user-pen"></i>
+                            <input type="text" class="name" id="mobile" placeholder="Surname or mobile">
+                            <i class="fas fa-circle-info" id="info"></i>
+                         </div>
+                         <div class="form-mode">
+                            <i class="fas fa-server"></i>
+                            <input type="text" class="name" id="smartcard" placeholder="IUC/smartcard number">
+                            <i class="fas fa-circle-info" id="info"></i>
+                         </div>
+                         <div class="check">
+                             <input type="checkbox">
+                             <label for="check-me">Remember Me</label>
+                         </div>
+                          <div class="log-in">
+                            <a href="verify.html" class="modal-brand" onclick="login()">SIGN IN</a>
+                            <i class="fa fa-angle-right loginIcon"></i>
+                          </div>
+                        </form>
+                        <div class="foot">
+                            <p class="comment">
+                                Should you pay your subscription and continue using our products, you are deemed as having agreed to the MultiChoice subscription
+                            </p>
+                                <a href="#" class="comment-foot">Terms and conditions</a>
+                        </div>
+                            
+                </div>
+                     
+        </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js"></script>
+</html>

@@ -1,0 +1,54 @@
+
+body{
+    background-image: url(../assets/dstv-login-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: #fff;
+    font-family: sans-serif;
+    background-attachment: fixed;
+}.container{
+    width: 302px;
+    height: 300px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top:0px;
+    bottom: 0px;
+    margin: auto;
+    backdrop-filter: blur(20px);
+    background: rgba(0, 93, 175, 0.307);
+    padding: 18px;
+}
+#number, #verification-code{
+    width: calc(100% - 24px);
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+#recaptcha-container{
+    margin-bottom: 5px;
+
+}
+#send, #verify{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    margin-bottom: 8px;
+}
+.p-config , .n-config{
+    width: calc(100% - 22px);
+    border: 2px solid green;
+    border-radius: 4px;
+    padding: 8px 10px;
+    margin: 4px 0px;
+    background-color: rgba(0, 249, 12, 0.5);
+    display: none;
+}
+.n-config{
+    border-color: red;
+    background-color: rgba(255, 0, 4, 0.5);
+}

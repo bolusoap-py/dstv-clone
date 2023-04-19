@@ -1,0 +1,196 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: Roboto, sans-serif;
+}
+
+body{
+    background-image: url(../assets/dstv-login-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: #fff;
+    font-family: sans-serif;
+    background-attachment: fixed;
+}
+.modal-box{
+    
+    border: none;
+    margin-top: 70px;
+    width: 450px;
+    height: 540px;
+    margin-left: 450px;
+    padding:20px;
+    background: rgba(0, 93, 175, 0.307);
+    font-size: 13px;
+    line-height: 17px;
+    color: #fff;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    display: block;
+    border-radius: 6px;
+    position: fixed;
+}
+
+strong{
+    font-weight: bold;
+}
+.modalBox-top{
+    text-align: center;
+}.modalBox-top p{
+    font-size: 18px !important;
+    line-height: 30px;
+}
+img{
+    max-width: 100%;   
+}
+.modal-form{
+    text-align: center;
+}
+.form-mode{
+    /* justify-content: center;
+    align-items: center; */
+    border: none;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.368);
+    display: flex;
+    width: 95%;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+  
+
+ i{
+    font-size: 20px;
+    margin-top: 12px;
+} 
+select{
+    margin-left: 10px;
+    width: 90%;
+    border-radius: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    align-items: left;
+    position: relative;
+    
+}
+
+option{
+ color: #000;
+ background: #fff;
+ text-transform: initial;
+ font-size: 14px;
+ font-weight: 400;
+ position: absolute;
+
+} 
+.name{
+    width: 80%;
+    background: none;
+    border: none;
+    outline: none;
+    margin-left: 7px;
+    color: #fff;
+    font-size: 16px;
+}
+#info{
+    margin-left: 5px;
+}
+.form-mode .name input::placeholder{
+    font-size: 16px;
+    background-color: none;
+    border: none;
+}
+.check{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: start;
+    padding-left: 18px
+}
+input[type="checkbox"]{
+    appearance:none ;
+    -webkit-appearance: none; 
+    height: 20px;
+    width: 20px;
+    background: transparent;
+    background-color: #d5d5d52a;
+    outline: #d5d5d52a;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-size: 16px;
+    margin-left: 4px;
+    font-weight: 400;
+}
+input[type="checkbox"]::after{
+    content: "\f00c";
+    font-family: "Font Awesome 6 free";
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    display: none;
+}
+input[type="checkbox"]:checked:after{
+display: block;
+}
+.log-in{
+    letter-spacing: normal;
+    text-align: center;
+    padding: 10px!important;
+    margin-bottom: 25px;
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0094fd;
+    font-size: 15px;
+    margin-top: 20px;
+    outline: #fff;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.583);
+    text-align: center;
+}
+.loginIcon{
+    float: right!important;
+    font-size: 30px!important;
+    margin-top: -6px!important;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.442);
+}
+.foot{
+    width: 300px;
+    display: block;
+    margin-left: 70px;
+    font-size:14px;
+}
+.comment-foot{
+    text-align: center;  
+    margin-left: 70px;  
+    color: #0c88c1;
+    font-weight: 600;
+}
+.log-in:hover{
+    background-color: transparent;
+    color: #fff;
+    transition: all 0.4s ease;
+    border: 1px solid#fff;
+    outline: #fff;
+}
